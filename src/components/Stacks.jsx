@@ -1,16 +1,16 @@
 import React from 'react';
 // import { useNavigate } from 'react-router-dom';
-import javascript from "/home/guilherme/PROFISSIONAL/portifolio/portifolio/src/images/javascript.png"
-import html from "/home/guilherme/PROFISSIONAL/portifolio/portifolio/src/images/html.png"
-import css from "/home/guilherme/PROFISSIONAL/portifolio/portifolio/src/images/cs.png"
-import react from "/home/guilherme/PROFISSIONAL/portifolio/portifolio/src/images/react.png"
-import redux from "/home/guilherme/PROFISSIONAL/portifolio/portifolio/src/images/redux.png"
-import node from "/home/guilherme/PROFISSIONAL/portifolio/portifolio/src/images/node.png"
-import typescript from "/home/guilherme/PROFISSIONAL/portifolio/portifolio/src/images/typescript-2.png"
-import docker from "/home/guilherme/PROFISSIONAL/portifolio/portifolio/src/images/docker-2.png"
-import sql from "/home/guilherme/PROFISSIONAL/portifolio/portifolio/src/images/sql.png"
-import mongoDb from "/home/guilherme/PROFISSIONAL/portifolio/portifolio/src/images/mongoDb.png"
-import sequelize from "/home/guilherme/PROFISSIONAL/portifolio/portifolio/src/images/sequelize.png"
+import javascript from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/javascript.png"
+import html from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/html.png"
+import css from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/cs.png"
+import react from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/react.png"
+import redux from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/redux.png"
+import node from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/node.png"
+import typescript from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/typescript-2.png"
+import docker from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/docker-2.png"
+import sql from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/sql.png"
+import mongoDb from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/mongoDb.png"
+import sequelize from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/sequelize.png"
 
 import '../pages/styles/Home.css'
 
