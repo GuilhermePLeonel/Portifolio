@@ -1,7 +1,7 @@
-import reactFoto from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/IMG_20230220_075702.png"
-import git from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/git.png"
-import gmail from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/gmail-2.png"
-import linkedin from "/home/guilherme/PROFISSIONAL/Portifolio/src/images/linkedin.png"
+import reactFoto from "../images/IMG_20230220_075702.png"
+import git from "../images/git.png"
+import gmail from "../images/gmail-2.png"
+import linkedin from "../images/linkedin.png"
 import { useEffect } from 'react'
 import './styles/Home.css'
 import NavBar from '../components/NavBar';
