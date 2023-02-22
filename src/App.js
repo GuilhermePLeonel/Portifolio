@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import './App.css'
-
+//a
 function App() {
   return (
     <div className="App">
