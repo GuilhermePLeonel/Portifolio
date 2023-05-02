@@ -151,6 +151,7 @@ body { margin: 0; padding: 0; }
   margin-top: 10%;
   margin-bottom: 5%;
   width: 40%;
+  transition: transform 250ms;
 }
 
 .back-end{
@@ -165,6 +166,7 @@ body { margin: 0; padding: 0; }
   margin-top: 10%;
   margin-bottom: 5%;
   width: 40%;
+  transition: transform 250ms;
 }
 
 .data-base{
@@ -179,6 +181,7 @@ body { margin: 0; padding: 0; }
   margin-top: 10%;
   margin-bottom: 5%;
   width: 40%;
+  transition: transform 250ms;
 }
 
 .each{
@@ -188,29 +191,14 @@ body { margin: 0; padding: 0; }
   margin-left: 2%;
 }
 
-.front-end:hover, .front-end:active {
-  width: 50%;
-  border-radius: 10px;
-  -webkit-transition: 0.2s ;
-  -moz-transition: 0.2s ;
-  -o-transition: 0.2s ;
-  transition: 0.2s ;
+.front-end:hover{
+  transform: scale(1.1);
 }
-.back-end:hover, .back-end:active {
-  width: 50%;
-  border-radius: 10px;
-  -webkit-transition: 0.2s ;
-  -moz-transition: 0.2s ;
-  -o-transition: 0.2s ;
-  transition: 0.2s ;
+.back-end:hover {
+  transform: scale(1.1);
 }
-.data-base:hover, .front-end:active {
-  width: 50%;
-  border-radius: 10px;
-  -webkit-transition: 0.2s ease-in;
-  -moz-transition: 0.2s ease-in;
-  -o-transition: 0.2s ease-in;
-  transition: 0.2s ease-in;
+.data-base:hover {
+  transform: scale(1.1);
 }
 
 .conexoes{
@@ -238,15 +226,11 @@ body { margin: 0; padding: 0; }
   border-radius: 20%;
   margin-top: 2%;
   margin-left: 2%;
+  transition: transform 250ms;
 }
 
-.icon:hover, .icon:active{
-  width: 7%;
-  -webkit-transition: 0.2s ease-in;
-  -moz-transition: 0.2s ease-in;
-  -o-transition: 0.2s ease-in;
-  transition: 0.2s ;
-  
+.icon:hover{
+  transform: scale(1.3);
 }
 
 
