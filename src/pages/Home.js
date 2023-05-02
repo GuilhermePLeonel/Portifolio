@@ -57,51 +57,6 @@ function Home() {
         </div>
       </div>
       <Stacks />
-      {/* <div className='resume'>
-        Como um bom amante de tecnologia, 
-        meu objetivo inicial é ingressar no mercado de trabalho e adquirir o máximo de experiencia e 
-        conhecimento possiveis que me garantam assertividade e eficiencia no meu desempenho.
-        </div>
-        <div className='resume'>
-        Como um bom amante de tecnologia, 
-        meu objetivo inicial é ingressar no mercado de trabalho e adquirir o máximo de experiencia e 
-        conhecimento possiveis que me garantam assertividade e eficiencia no meu desempenho.
-        </div>
-        <div className='resume'>
-        Como um bom amante de tecnologia, 
-        meu objetivo inicial é ingressar no mercado de trabalho e adquirir o máximo de experiencia e 
-        conhecimento possiveis que me garantam assertividade e eficiencia no meu desempenho.
-        </div>
-        <div className='resume'>
-        Como um bom amante de tecnologia, 
-        meu objetivo inicial é ingressar no mercado de trabalho e adquirir o máximo de experiencia e 
-        conhecimento possiveis que me garantam assertividade e eficiencia no meu desempenho.
-        </div>
-        <div className='resume'>
-        Como um bom amante de tecnologia, 
-        meu objetivo inicial é ingressar no mercado de trabalho e adquirir o máximo de experiencia e 
-        conhecimento possiveis que me garantam assertividade e eficiencia no meu desempenho.
-        </div>
-        <div className='resume'>
-        Como um bom amante de tecnologia, 
-        meu objetivo inicial é ingressar no mercado de trabalho e adquirir o máximo de experiencia e 
-        conhecimento possiveis que me garantam assertividade e eficiencia no meu desempenho.
-        </div>
-        <div className='resume'>
-        Como um bom amante de tecnologia, 
-        meu objetivo inicial é ingressar no mercado de trabalho e adquirir o máximo de experiencia e 
-        conhecimento possiveis que me garantam assertividade e eficiencia no meu desempenho.
-        </div>
-        <div className='resume'>
-        Como um bom amante de tecnologia, 
-        meu objetivo inicial é ingressar no mercado de trabalho e adquirir o máximo de experiencia e 
-        conhecimento possiveis que me garantam assertividade e eficiencia no meu desempenho.
-        </div>
-        <div className='resume'>
-        Como um bom amante de tecnologia, 
-        meu objetivo inicial é ingressar no mercado de trabalho e adquirir o máximo de experiencia e 
-        conhecimento possiveis que me garantam assertividade e eficiencia no meu desempenho.
-        </div> */}
         <div
       className="conexoes"
       id='conexoes'
@@ -110,6 +65,8 @@ function Home() {
         <div>
           <a
           href="https://github.com/GuilhermePLeonel"
+          target="_blank"
+          rel="noreferrer"
           >
             <img
             className="icon"
@@ -120,6 +77,8 @@ function Home() {
           </a>
           <a
           href="https://www.linkedin.com/in/guilherme-pleonel"
+          target="_blank"
+          rel="noreferrer"
           >
             <img
             className="icon"
@@ -130,6 +89,8 @@ function Home() {
           </a>
           <a
           href="mailto:guilhermepleonel1997@gmail.com"
+          target="_blank"
+          rel="noreferrer"
           >
             <img
             className="icon"
