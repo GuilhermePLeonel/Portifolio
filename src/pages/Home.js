@@ -1,4 +1,5 @@
 import reactFoto from "../images/IMG_20230220_075702.png"
+import project1 from "../images/project1.jpeg"
 import git from "../images/git.png"
 import gmail from "../images/gmail-2.png"
 import linkedin from "../images/linkedin.png"
@@ -49,7 +50,18 @@ function Home() {
         PROJETOS
         <div>
           <div className='project-1'>
-            EM BREVE...
+            G-TUNES
+            <a 
+            href='https://g-tune.vercel.app/'
+            target="_blank"
+            rel="noreferrer"
+            >
+              <img
+              className='project-thumb'
+              src={project1}
+              alt='tela inicial do aplicativo'
+              ></img>
+            </a>
           </div>
           <div className='project-2'>
             EM BREVE...
