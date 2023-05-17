@@ -45,7 +45,7 @@ function Home() {
                 </div>
                 <div className="projects" id="projects">
                     PROJETOS
-                    <div>
+                    <div className="projects-box">
                         <div className="project-1">
                             G-TUNES
                             <a
@@ -61,6 +61,7 @@ function Home() {
                             </a>
                         </div>
                         <div className="project-2">EM BREVE...</div>
+                        {/* <div className="project-3">EM BREVE...</div> */}
                     </div>
                 </div>
                 <Stacks />
