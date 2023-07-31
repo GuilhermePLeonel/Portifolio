@@ -1,5 +1,7 @@
 import reactFoto from '../images/IMG_20230220_075702.png'
 import project1 from '../images/project1.jpeg'
+import project2 from '../images/project2.jpeg'
+import project3 from '../images/project3.png'
 import git from '../images/git.png'
 import gmail from '../images/gmail-2.png'
 import linkedin from '../images/linkedin.png'
@@ -17,54 +19,121 @@ function Home() {
         <div>
             <NavBar />
             <div className="home">
-                <div className="infos" id="infos">
-                    <div className="name-image">
-                        <img
-                            src={reactFoto}
-                            alt="foto de guilherme leonel"
-                            className="image"
-                        ></img>
-                        <div className="name">Guilherme Leonel</div>
-                    </div>
-                    <div className="title">
-                        <div>FULL STACK</div>
-                        <div>DEVELOPER</div>
-                        <div className="resume">
-                            Como um bom amante de tecnologia, foi em 2022 que
-                            encontrei meu caminho na programação e me empenhei
-                            em estudar suas tecnologias e práticas através do
-                            curso Trybe que por um periodo de 1 ano, modela e
-                            forma essoas desenvolvedoras full stack de forma
-                            muito sólida visando te preparar pro mercado de
-                            trabalho. Meu objetivo inicial é ingressar no
-                            mercado de trabalho e adquirir o máximo de
-                            experiencia e conhecimento possiveis que me garantam
-                            assertividade e eficiencia no meu desempenho.
+                <div id="infos">
+                    <div className="infos">
+                        <div className="name-image">
+                            <img
+                                src={reactFoto}
+                                alt="foto de guilherme leonel"
+                                className="image"
+                            ></img>
+                            <div className="name">Guilherme Leonel</div>
+                        </div>
+                        <div className="title">
+                            <div>FULL STACK</div>
+                            <div>DEVELOPER</div>
+                            <div className="resume">
+                                Como um bom amante de tecnologia, foi em 2022
+                                que encontrei meu caminho na programação e me
+                                empenhei em estudar suas tecnologias e práticas
+                                através do curso Trybe que por um periodo de 1
+                                ano, modela e forma essoas desenvolvedoras full
+                                stack de forma muito sólida visando te preparar
+                                pro mercado de trabalho. Meu objetivo inicial é
+                                ingressar no mercado de trabalho e adquirir o
+                                máximo de experiencia e conhecimento possiveis
+                                que me garantam assertividade e eficiencia no
+                                meu desempenho.
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="projects" id="projects">
-                    PROJETOS
-                    <div className="projects-box">
-                        <div className="project-1">
-                            G-TUNES
-                            <a
+                <div id="projects">
+                    <div className="projects">
+                        PROJETOS
+                        <div className="projects-box">
+                            <div className="project-1">
+                                G-TUNES
+                                <a
+                                    href="https://g-tune.vercel.app/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <img
+                                        className="project-thumb"
+                                        src={project1}
+                                        alt="tela inicial do aplicativo"
+                                    ></img>
+                                </a>
+                                <a
+                                    href="https://github.com/GuilhermePLeonel/G-TUNE"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <img
+                                        className="project-git"
+                                        src={git}
+                                        alt=" logo do github"
+                                    ></img>
+                                </a>
+                            </div>
+                            <div className="project-2">
+                                DELIVERY APP
+                                {/* <a
                                 href="https://g-tune.vercel.app/"
                                 target="_blank"
                                 rel="noreferrer"
-                            >
+                            > */}
                                 <img
                                     className="project-thumb"
-                                    src={project1}
+                                    src={project2}
                                     alt="tela inicial do aplicativo"
                                 ></img>
-                            </a>
+                                {/* </a> */}
+                                <a
+                                    href="https://github.com/GuilhermePLeonel/Delivery-App"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <img
+                                        className="project-git"
+                                        src={git}
+                                        alt=" logo do github"
+                                    ></img>
+                                </a>
+                            </div>
+                            <div className="project-3">
+                                TFC
+                                {/* <a
+                                href="https://g-tune.vercel.app/"
+                                target="_blank"
+                                rel="noreferrer"
+                            > */}
+                                <img
+                                    className="project-thumb"
+                                    src={project3}
+                                    alt="tela inicial do aplicativo"
+                                ></img>
+                                {/* </a> */}
+                                <a
+                                    href="https://github.com/GuilhermePLeonel/TFC"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    {' '}
+                                    <img
+                                        className="project-git"
+                                        src={git}
+                                        alt=" logo do github"
+                                    ></img>
+                                </a>
+                            </div>
                         </div>
-                        <div className="project-2">EM BREVE...</div>
-                        {/* <div className="project-3">EM BREVE...</div> */}
                     </div>
                 </div>
-                <Stacks />
+                <div id="stacks">
+                    <Stacks />
+                </div>
                 <div className="conexoes" id="conexoes">
                     CONEXÕES
                     <div>

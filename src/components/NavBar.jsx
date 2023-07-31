@@ -11,7 +11,7 @@ function NavBar() {
                     style={{ paddingLeft: 13, textDecoration: 'none' }}
                     href="#infos"
                 >
-                    INFOS
+                    SOBRE
                 </a>
                 <a
                     className="link"
