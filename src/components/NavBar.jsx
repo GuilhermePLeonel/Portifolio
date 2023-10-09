@@ -3,6 +3,9 @@ import React from 'react'
 import './styles/NavBar.css'
 
 function NavBar() {
+    // const handleClick = (event) => {
+    //     console.log(event.target.href)
+    // }
     return (
         <nav className="navBar">
             <div className="container">

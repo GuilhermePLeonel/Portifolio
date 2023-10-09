@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navBar {
     background-color: black;
     position: fixed;
@@ -18,45 +22,20 @@ body {
     padding-bottom: 2%;
     width: 100%;
 }
+
 .container {
+    justify-content: space-between;
     margin-right: 2%;
     background-color: black;
 }
+
 .link {
     color: white;
+    margin-left: 20px; /* Adiciona margem à esquerda para espaçamento */
+    cursor: pointer; /* Altera o cursor para a mão característica de link */
 }
 
 .link:hover,
 .link:active {
     color: #2e2e2e;
-}
-
-@media screen and (max-width: 414px) {
-    .navBar {
-        background-color: black;
-        position: fixed;
-        display: flex;
-        justify-content: center;
-        opacity: 0.9;
-        color: white;
-        font-size: 80%;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-weight: bold;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        width: 100%;
-    }
-    .container {
-        margin-right: 2%;
-        background-color: black;
-    }
-    .link {
-        color: white;
-    }
-
-    .link:hover,
-    .link:active {
-        color: #2e2e2e;
-    }
 }

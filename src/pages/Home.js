@@ -1,6 +1,6 @@
 import reactFoto from '../images/IMG_20230220_075702.png'
 import project1 from '../images/project1.jpeg'
-import project2 from '../images/project2.jpeg'
+import project2 from '../images/Previa.png'
 import project3 from '../images/project3.png'
 import git from '../images/git.png'
 import gmail from '../images/gmail-2.png'
@@ -52,8 +52,27 @@ function Home() {
                     <div className="projects">
                         PROJETOS
                         <div className="projects-box">
+                            <div className="project-2">
+                                DELIVERY APP
+                                <img
+                                    className="project-thumb"
+                                    src={project2}
+                                    alt="tela inicial do aplicativo"
+                                ></img>
+                                <a
+                                    href="https://github.com/GuilhermePLeonel/Delivery-App"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    <img
+                                        className="project-git"
+                                        src={git}
+                                        alt=" logo do github"
+                                    ></img>
+                                </a>
+                            </div>
                             <div className="project-1">
-                                G-TUNES
+                                G-Tunes
                                 <a
                                     href="https://g-tune.vercel.app/"
                                     target="_blank"
@@ -77,44 +96,13 @@ function Home() {
                                     ></img>
                                 </a>
                             </div>
-                            <div className="project-2">
-                                DELIVERY APP
-                                {/* <a
-                                href="https://g-tune.vercel.app/"
-                                target="_blank"
-                                rel="noreferrer"
-                            > */}
-                                <img
-                                    className="project-thumb"
-                                    src={project2}
-                                    alt="tela inicial do aplicativo"
-                                ></img>
-                                {/* </a> */}
-                                <a
-                                    href="https://github.com/GuilhermePLeonel/Delivery-App"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    <img
-                                        className="project-git"
-                                        src={git}
-                                        alt=" logo do github"
-                                    ></img>
-                                </a>
-                            </div>
                             <div className="project-3">
                                 TFC
-                                {/* <a
-                                href="https://g-tune.vercel.app/"
-                                target="_blank"
-                                rel="noreferrer"
-                            > */}
                                 <img
                                     className="project-thumb"
                                     src={project3}
                                     alt="tela inicial do aplicativo"
                                 ></img>
-                                {/* </a> */}
                                 <a
                                     href="https://github.com/GuilhermePLeonel/TFC"
                                     target="_blank"
